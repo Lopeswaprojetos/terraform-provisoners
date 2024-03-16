@@ -12,7 +12,7 @@ resource "aws_instance" "vm" {
   associate_public_ip_address = true
 
   provisioner "local-exec" {
-    command = "echo ${self.public_ip} >> public-ip.txt"
+    command = "echo ${self.public_ip} >> public-ip.xt"
   }
 
   connection {
