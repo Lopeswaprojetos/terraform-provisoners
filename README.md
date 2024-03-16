@@ -1,6 +1,6 @@
 # Terraform Provisioners com AWS
 
-Este README fornece um guia de como utilizar Terraform Provisioners para gerenciar recursos na AWS, com base no projeto disponível em [anadevti/Terraform_Provisioners_com_aws](https://github.com/anadevti/Terraform_Provisioners_com_aws). Este projeto destina-se a ilustrar o uso prático dos provisioners do Terraform para configurar e gerenciar recursos de infraestrutura na Amazon Web Services (AWS), como instâncias EC2, grupos de segurança, e mais.
+Este README fornece um guia de como utilizar Terraform Provisioners para gerenciar recursos na AWS . Este projeto destina-se a ilustrar o uso prático dos provisioners do Terraform para configurar e gerenciar recursos de infraestrutura na Amazon Web Services (AWS), como instâncias EC2, grupos de segurança, e mais.
 
 ## Visão Geral
 
@@ -16,7 +16,7 @@ Antes de começar, você precisará:
 
 ## Como Usar
 
-1. **Clone o Projeto**: Primeiro, clone o repositório para sua máquina local usando `git clone https://github.com/anadevti/Terraform_Provisioners_com_aws.git`.
+1. **Clone o Projeto**: Primeiro, clone o repositório para sua máquina local usando `git clone https://github.com/Lopeswaprojetos/terraform-provisioners.git`.
 
 2. **Configuração Inicial**: Navegue até a pasta do projeto clonado e revise os arquivos de configuração do Terraform (`*.tf`) para entender a estrutura dos recursos que serão criados ou gerenciados.
 
