@@ -8,7 +8,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "aninha-s3-bucket"
+    bucket = "wagner-s3-bucket"
     key    = "aws-vm-provisioners/terraform.tfstate"
     region = "sa-east-1"
   }
@@ -18,7 +18,7 @@ provider "aws" {
   region = "sa-east-1"
   default_tags {
     tags = {
-      Owner      = "Ana Carolyne Pereira De Souza"
+      Owner      = "Wagner Lopes Da Silva"
       managed-by = "Terraform"
     }
   }
@@ -27,7 +27,7 @@ provider "aws" {
 data "terraform_remote_state" "vpc" {
   backend = "s3"
   config = {
-    bucket = "aninha-s3-bucket"
+    bucket = "wagner-s3-bucket"
     key    = "aws-vpc/terraform.tfstate"
     region = "sa-east-1"
   }
